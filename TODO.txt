@@ -4,3 +4,4 @@ MP controls
 Payloads
 3d Models - make sure everything is 1 sided
 Light pack
+replace GPLed effects & models with CC ones

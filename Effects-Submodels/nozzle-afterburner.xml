@@ -3,6 +3,17 @@
 
 <path>nozzle-afterburner.ac</path>
 
+<effect>
+        <inherits-from>Effects/model-transparent</inherits-from>
+        <condition>
+                <property>sim/rendering/rembrandt/enabled</property>
+        </condition>
+        <object-name>afterburner1</object-name>
+        <object-name>afterburner2</object-name>
+        <object-name>afterburner3</object-name>
+        <object-name>afterburner4</object-name>
+</effect>
+
 <!--***metal effects***-->
 
 <animation>
@@ -563,5 +574,25 @@
 			<z>0</z>
 		</axis>
 </animation>
+
+<animation>
+                <type>scale</type>
+                <object-name>afterburner1</object-name>
+                <object-name>afterburner2</object-name>
+                <object-name>afterburner3</object-name>
+                <object-name>afterburner4</object-name>
+		<property>/engines/engine[0]/nozzle-pos-norm</property>
+        <center>
+                <x-m>0</x-m>
+                <y-m>0.000443</y-m>
+                <z-m>-0.070266</z-m>
+        </center>
+                <axis>
+                        <x>1</x>
+                        <y>0</y>
+                        <z>0</z>
+                </axis>
+</animation>
+
 
 </PropertyList>

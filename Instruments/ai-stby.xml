@@ -7,6 +7,14 @@
 <path>Models/ai-stby.ac</path>
 <texture-path>Textures</texture-path>
 
+<animation>
+        <type>shader</type>
+        <shader>chrome</shader>
+        <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+        <object-name>glass</object-name>
+</animation>
+
+
 <!--LIGHTING-->
 
 <animation>

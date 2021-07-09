@@ -11,14 +11,14 @@ see attached file describing license.
 
  <sim>
 
-  <description>North American F-100D Super Sabre</description>
+  <description>North American F-100 Super Sabre</description>
   <author>David Culp, Alpha Simulations, Kent Esbenshade</author>
   <status>alpha</status>
   <flight-model>jsb</flight-model>
-  <aero>F-100D-jsbsim</aero>
+  <aero>F-100-jsbsim</aero>
   
   <startup>
-   <splash-texture>Aircraft/F-100/F-100-splash.png</splash-texture>
+   <splash-texture>Aircraft/F-100/F-100splash.png</splash-texture>
   </startup>
 
   <sound>
@@ -43,12 +43,14 @@ see attached file describing license.
     <pitch-offset-deg>-15.5</pitch-offset-deg>
     <x-offset-m archive="y">0.0</x-offset-m><!-- right/left -->
     <y-offset-m archive="y">.95</y-offset-m><!-- up/down -->
-    <z-offset-m archive="y">-3.25</z-offset-m><!-- aft/fore -->
+    <!--z-offset-m archive="y">-3.25</z-offset-m--><!-- aft/fore -->
+    <z-offset-m archive="y">-3.45</z-offset-m><!-- aft/fore -->
+    <default-field-of-view-deg>75</default-field-of-view-deg>
    </config>
   </view>
 
   <model>
-   <path>Aircraft/F-100/Models/F-100D.xml</path>
+   <path>Aircraft/F-100/Models/F-100.xml</path>
   </model>
 
   <chase-distance-m>-21</chase-distance-m>
@@ -89,7 +91,7 @@ see attached file describing license.
 			<desc>Release selected stores</desc>
 		</key>
 		<key>
-			<name>Control-i</name>
+			<name>Control-]</name>
 			<desc>Auto ILS Engage (automatically disengaged below 200 feet AGL)</desc>
 		</key>
 		<key>
@@ -133,6 +135,13 @@ see attached file describing license.
 	<ai>
 		<scenario>refueling_demo_2</scenario>
 	</ai>
+
+ <multiplay>
+   <generic>
+     <string n="9" type="string"/>
+     <int n="10" alias="/controls/armament/trigger" />
+   </generic>
+ </multiplay>
 
  </sim>
 
@@ -224,8 +233,8 @@ see attached file describing license.
 <input>
  <keyboard>
 
-	<key n="9">
-		<name>Control-i</name>
+	<key n="29">
+		<name>Control-]</name>
 		<desc>auto ILS on</desc>
 		<binding>
 			<command>property-assign</command>
@@ -395,7 +404,7 @@ see attached file describing license.
 		<file>Aircraft/Generic/aar.nas</file>
 	</aar>
 	<F-100>
-		<file>Aircraft/F-100/Nasal/F-100D-instruments.nas</file>
+		<file>Aircraft/F-100/Nasal/F-100-instruments.nas</file>
 		<file>Aircraft/F-100/Nasal/tire-rotation.nas</file>
 		<file>Aircraft/F-100/Nasal/tire-smoke.nas</file>
 	</F-100>

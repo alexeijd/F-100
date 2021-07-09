@@ -7,6 +7,25 @@
 <path>Models/gunsight.ac</path>
 <texture-path>Textures</texture-path>
 
+<!-- Rembrandt auto switching for glass -->
+
+<effect>
+        <inherits-from>Effects/model-transparent</inherits-from>
+        <condition>
+                <property>sim/rendering/rembrandt/enabled</property>
+        </condition>
+        <object-name>glass</object-name>
+        <object-name>reflector</object-name>
+</effect>
+
+<animation>
+        <type>noshadow</type>
+        <object-name>glass</object-name>
+        <object-name>reflector</object-name>
+</animation>
+
+
+
 <!--LIGHTING-->
 
 <animation>

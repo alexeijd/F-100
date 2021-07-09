@@ -11,9 +11,9 @@
       <table>
         <independentVar lookup="row">aero/alpha-deg</independentVar>
          <tableData>
-			0.0		0
-            4.0		0
-            6.0		1
+		0.0		0
+		4.0		0
+		6.0		1
          </tableData>
       </table>
      <output>systems/slats/alpha</output>
@@ -24,8 +24,8 @@
       <table>
         <independentVar lookup="row">/instrumentation/accelerometer/G</independentVar>
          <tableData>
-			1.25		  0
-            2.25		  1
+		1.25		0
+		2.25		1
          </tableData>
       </table>
      <output>systems/slats/G</output>
@@ -33,7 +33,7 @@
 
 	<summer name="maneuvering">
 		<input>systems/slats/alpha</input>
-		<input>systems/slats/G</input>
+		<!--input>systems/slats/G</input-->
 		<clipto>
 			<min>0</min>
 			<max>1</max>
@@ -46,7 +46,7 @@
 		<table>
 			<independentVar lookup="row">velocities/vc-kts</independentVar>
 			<tableData>
-				0			1
+				0		1
 				200		1
 				225		0
 			</tableData>
@@ -61,7 +61,7 @@
      <switch>
 		<default value="systems/slats/low-speed"/>
           <test value="systems/slats/maneuvering">
-				velocities/vc-kts GT 225
+		velocities/vc-kts GT 225
                 velocities/mach LT .65
           </test>
           <output>systems/slats/slat-pos-norm</output>

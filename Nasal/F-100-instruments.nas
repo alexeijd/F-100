@@ -3,7 +3,8 @@ var instruments = func {
 # ACCELEROMETER
 
 var z_accel = getprop("/accelerations/pilot/z-accel-fps_sec");
-var G = z_accel / -32.174;
+#var G = z_accel / -32.174;
+var G = getprop("/accelerations/pilot-gdamped");
 setprop("/instrumentation/accelerometer/G", G);
 var G_min = getprop("/instrumentation/accelerometer/G-min");
 var G_max = getprop("/instrumentation/accelerometer/G-max");

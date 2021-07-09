@@ -4,108 +4,6 @@
 
  <path>F-100.ac</path>
 
-<!--***LIVERIES***-->
-
- <!-- fuselage -->
-  <animation>
-        <type>material</type>
-        <object-name>fuselage</object-name>
-        <object-name>pitot</object-name>
-        <object-name>speedbrake</object-name>
-        <object-name>left-main-door</object-name>
-        <object-name>right-main-door</object-name>
-        <object-name>tail-skid</object-name>
-        <object-name>canopy-frame</object-name>
-        <object-name>windscreen-frame</object-name>
-        <object-name>nose-antenna</object-name>
-        <object-name>fuselage-antenna</object-name>
-        <object-name>nose-top</object-name>
-        <object-name>right-chute-door</object-name>
-        <object-name>left-chute-door</object-name>
-        <property-base>sim/model/livery</property-base>
-        <texture-prop>texture-fuselage</texture-prop>
-        <texture>fuselage.png</texture>
-   </animation>
-
-  <!-- nose door -->
-    <animation>
-        <type>material</type>
-        <object-name>nose-door1</object-name>
-        <object-name>nose-door2</object-name>
-        <property-base>sim/model/livery</property-base>
-        <texture-prop>texture-nose</texture-prop>
-        <texture>nose-door.png</texture>
-    </animation>
-
- <!-- wings -->
-    <animation>
-        <type>material</type>
-        <object-name>left-wing</object-name>
-        <object-name>left-flap</object-name>
-        <object-name>left-aileron</object-name>
-        <object-name>left-wing-fence</object-name>
-        <object-name>left-slat</object-name>
-        <object-name>left-strut-door</object-name>
-        <object-name>left-strut-ram-door1</object-name>
-        <object-name>left-strut-ram-door2a</object-name>
-        <object-name>left-strut-ram-door2b</object-name>
-        <object-name>right-wing</object-name>
-        <object-name>right-flap</object-name>
-        <object-name>right-aileron</object-name>
-        <object-name>right-slat</object-name>
-        <object-name>right-wing-fence</object-name>
-        <object-name>right-strut-door</object-name>
-        <object-name>right-strut-ram-door1</object-name>
-        <object-name>right-strut-ram-door2a</object-name>
-        <object-name>right-strut-ram-door2b</object-name>
-        <property-base>sim/model/livery</property-base>
-        <texture-prop>texture-wing</texture-prop>
-        <texture>wings.png</texture>
-    </animation>
-
- <!-- Pylons -->
-    <animation>
-        <type>material</type>
-        <object-name>left-missile-pylon</object-name>
-        <object-name>left-tank-pylon</object-name>
-        <object-name>right-missile-pylon</object-name>
-        <object-name>right-tank-pylon</object-name>
-        <property-base>sim/model/livery</property-base>
-        <texture-prop>texture-pylon</texture-prop>
-        <texture>pylons.png</texture>
-    </animation>
-
- <!-- V tail -->
-    <animation>
-        <type>material</type>
-        <object-name>vert-stab</object-name>
-        <object-name>rudder</object-name>
-        <property-base>sim/model/livery</property-base>
-        <texture-prop>texture-vtail</texture-prop>
-        <texture>VTail.png</texture>
-    </animation>
-
- <!-- H tail -->
-    <animation>
-        <type>material</type>
-        <object-name>horiz-stabs</object-name>
-        <property-base>sim/model/livery</property-base>
-        <texture-prop>texture-htail</texture-prop>
-        <texture>HTail.png</texture>
-    </animation>
-
- <!-- tanks  -->
-    <animation>
-        <type>material</type>
-        <object-name>LTank</object-name>
-        <object-name>RTank</object-name>
-        <property-base>sim/model/livery</property-base>
-        <texture-prop>texture-tanks</texture-prop>
-        <texture>tank.png</texture>
-    </animation>
-
-
-
 <!--***INSTRUMENTS***-->
 
  <model>
@@ -424,8 +322,6 @@
 		<object-name>afterburner-can</object-name>
 		<object-name>nav-lights</object-name>
 		<object-name>oleo</object-name>
-	<object-name>canopy</object-name>
-	<object-name>windscreen</object-name>
 </animation>
 
 <animation>

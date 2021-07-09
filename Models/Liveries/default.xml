@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">Default - USAF 352TFS</name>
+     <texture-fuselage>Liveries/default/fuselage.png</texture-fuselage>
+     <texture-wing>Liveries/default/wings.png</texture-wing>
+	 <texture-pylon>Liveries/default/pylons.png</texture-pylon>
+	  <texture-vtail>Liveries/default/VTail.png</texture-vtail>
+	 <texture-htail>Liveries/default/HTail.png</texture-htail>
+      <texture-nose>Liveries/default/nose-door.png</texture-nose>
+    
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

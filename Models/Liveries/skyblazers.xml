@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">Skyblazers</name>
+     <texture-fuselage>Liveries/skyblazers/fuselage.png</texture-fuselage>
+     <texture-wing>Liveries/skyblazers/wings.png</texture-wing>
+	 <texture-pylon>Liveries/skyblazers/pylons.png</texture-pylon>
+	  <texture-vtail>Liveries/skyblazers/VTail.png</texture-vtail>
+	 <texture-htail>Liveries/skyblazers/HTail.png</texture-htail>
+      <texture-nose>Liveries/skyblazers/nose-door.png</texture-nose>
+    
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

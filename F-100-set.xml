@@ -143,6 +143,8 @@ see attached file describing license.
    </generic>
  </multiplay>
 
+ <menubar include="Dialogs/menu.xml"/>
+
  </sim>
 
 <consumables>
@@ -407,6 +409,7 @@ see attached file describing license.
 		<file>Aircraft/F-100/Nasal/F-100-instruments.nas</file>
 		<file>Aircraft/F-100/Nasal/tire-rotation.nas</file>
 		<file>Aircraft/F-100/Nasal/tire-smoke.nas</file>
+		<file>Aircraft/F-100/Nasal/liveries.nas</file>
 	</F-100>
 </nasal>
 

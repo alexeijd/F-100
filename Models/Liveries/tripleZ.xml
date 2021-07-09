@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">USAF 55 TFS</name>
+     <texture-fuselage>Liveries/tripleZ/fuselage.png</texture-fuselage>
+     <texture-wing>Liveries/tripleZ/wings.png</texture-wing>
+	 <texture-pylon>Liveries/tripleZ/pylons.png</texture-pylon>
+	  <texture-vtail>Liveries/tripleZ/VTail.png</texture-vtail>
+	 <texture-htail>Liveries/tripleZ/HTail.png</texture-htail>
+      <texture-nose>Liveries/tripleZ/nose-door.png</texture-nose>
+    
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

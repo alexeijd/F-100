@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">RDAF, Eskadrille 730</name>
+     <texture-fuselage>Liveries/RDAFE730/fuselage.png</texture-fuselage>
+     <texture-wing>Liveries/RDAFE730/wings.png</texture-wing>
+	 <texture-pylon>Liveries/USAF81TFS/pylons.png</texture-pylon>
+	  <texture-vtail>Liveries/RDAFE730/VTail.png</texture-vtail>
+	 <texture-htail>Liveries/RDAFE730/HTail.png</texture-htail>
+      <texture-nose>Liveries/RDAFE730/nose-door.png</texture-nose>
+    
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

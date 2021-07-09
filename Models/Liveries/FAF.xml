@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">Armee de L’Air, EC 2/11 “Vosges”</name>
+     <texture-fuselage>Liveries/FAF/fuselage.png</texture-fuselage>
+     <texture-wing>Liveries/FAF/wings.png</texture-wing>
+	 <texture-pylon>Liveries/USAF81TFS/pylons.png</texture-pylon>
+	  <texture-vtail>Liveries/FAF/VTail.png</texture-vtail>
+	 <texture-htail>Liveries/FAF/HTail.png</texture-htail>
+      <texture-nose>Liveries/FAF/nose-door.png</texture-nose>
+    
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

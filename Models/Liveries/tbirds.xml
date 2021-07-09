@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">Thunderbirds</name>
+     <texture-fuselage>Liveries/tbirds/fuselage.png</texture-fuselage>
+     <texture-wing>Liveries/tbirds/wings.png</texture-wing>
+	 <texture-pylon>Liveries/tbirds/pylons.png</texture-pylon>
+	  <texture-vtail>Liveries/tbirds/VTail.png</texture-vtail>
+	 <texture-htail>Liveries/tbirds/HTail.png</texture-htail>
+      <texture-nose>Liveries/tbirds/nose-door.png</texture-nose>
+    
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

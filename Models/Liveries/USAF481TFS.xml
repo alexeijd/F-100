@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">USAF 481 TFS</name>
+     <texture-fuselage>Liveries/USAF481TFS/fuselage.png</texture-fuselage>
+     <texture-wing>Liveries/USAF481TFS/wings.png</texture-wing>
+	 <texture-pylon>Liveries/USAF81TFS/pylons.png</texture-pylon>
+	  <texture-vtail>Liveries/USAF481TFS/VTail.png</texture-vtail>
+	 <texture-htail>Liveries/USAF481TFS/HTail.png</texture-htail>
+      <texture-nose>Liveries/USAF481TFS/nose-door.png</texture-nose>
+    
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

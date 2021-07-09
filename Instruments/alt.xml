@@ -1,0 +1,100 @@
+<?xml version="1.1"?>
+
+<!-- F-100D altimeter -->
+
+<PropertyList>
+
+<path>Models/alt.ac</path>
+<texture-path>Textures</texture-path>
+
+<!--LIGHTING-->
+
+<animation>
+	<type>material</type>
+	<object-name>indicator</object-name>
+	<emission>
+		<red>0.75</red>
+		<green>0.25</green>
+		<blue>0.25</blue>
+		<factor-prop>controls/lighting/panel-norm</factor-prop>
+	</emission> 
+</animation> 
+
+<!--METAL EFFECTS-->
+
+<animation>
+	<type>shader</type>
+	<shader>chrome</shader>
+	<texture>metal-shader.png</texture>
+		<object-name>screws</object-name>
+</animation>
+
+<!--ROTATIONS-->
+
+<animation>
+	<type>rotate</type>
+	<object-name>alt-warning</object-name>
+	<property>instrumentation/altimeter/indicated-altitude-ft</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>0</dep></entry>
+		<entry><ind>10000</ind><dep>61</dep>
+		</entry>
+	</interpolation>
+	<axis>
+		<x>-1</x>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>needle1</object-name>
+	<property>instrumentation/altimeter/indicated-altitude-ft</property>
+	<factor>0.36</factor>  
+	<axis>
+		<x>-1</x>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>needle2</object-name>
+	<property>instrumentation/altimeter/indicated-altitude-ft</property>
+	<factor>0.036</factor>
+	<axis>
+		<x>-1</x>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>needle3</object-name>
+	<property>/instrumentation/altimeter/indicated-altitude-ft</property>
+	<factor>0.0036</factor>
+	<axis>
+		<x>-1</x>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>pressure-dial</object-name>
+	<property>/instrumentation/altimeter/setting-inhg</property>
+	<interpolation>
+		<entry><ind>28</ind><dep>-200</dep></entry>
+		<entry><ind>30</ind><dep>0</dep></entry>
+		<entry><ind>31.3</ind><dep>130</dep></entry>
+	</interpolation>
+	<axis>
+		<x>1</x>
+	</axis>
+</animation>
+
+ <!--LoD-->
+
+<animation>
+	<type>range</type>
+	<min-m>0</min-m>
+	<max-m>5</max-m>
+</animation>
+
+</PropertyList>

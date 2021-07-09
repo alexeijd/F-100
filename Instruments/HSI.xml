@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+
+<!--***F-100D horizontal situation indicator***-->
+
+<PropertyList> 
+
+<path>Models/HSI.ac</path>
+<texture-path>Textures</texture-path>
+
+<!--LIGHTING-->
+
+<animation>
+	<type>material</type>
+	<object-name>indicator</object-name>
+	<emission>
+		<red>0.75</red>
+		<green>0.25</green>
+		<blue>0.25</blue>
+		<factor-prop>/controls/lighting/panel-norm</factor-prop>
+	</emission> 
+</animation> 
+
+<!--METAL EFFECTS-->
+
+<animation>
+	<type>shader</type>
+	<shader>chrome</shader>
+	<texture>metal-shader.png</texture>
+		<object-name>screws</object-name>
+</animation>
+
+<!--ORIENTATION, MAGNETIC-->
+
+<animation> 
+	<type>rotate</type>
+	<object-name>face</object-name>
+	<object-name>needle</object-name>
+	<property>/orientation/heading-magnetic-deg</property>
+	<axis> 
+		<x>1</x>
+	</axis>
+</animation>
+
+<!--NEEDLE/HEADING BUG SET-->
+
+<animation> 
+	<type>rotate</type>
+	<object-name>needle</object-name>
+	<property>/autopilot/settings/heading-bug-deg</property>
+	<axis> 
+		<x>-1</x>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>hdg-knob</object-name>
+	<property>/autopilot/settings/heading-bug-deg</property>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.036853</y-m>
+		<z-m>-0.036965</z-m>
+	</center>
+	<axis>
+		<x>-1</x>
+	</axis>
+</animation>
+
+<animation>
+	<type>pick</type>
+	<object-name>dec</object-name>
+	<visible>false</visible>
+	<action>
+		<button>0</button>
+		<repeatable>true</repeatable>
+		<interval-sec>0.05</interval-sec>
+		<binding>
+			<command>property-adjust</command>
+			<property>/autopilot/settings/heading-bug-deg</property>
+			<step>-1</step>
+			<min>0</min>
+			<max>360</max>
+			<wrap>1</wrap>
+		</binding>
+	</action>
+</animation>   
+
+<animation>
+	<type>pick</type>
+	<object-name>inc</object-name>
+	<visible>false</visible>
+	<action>
+		<button>0</button>
+		<repeatable>true</repeatable>
+		<interval-sec>0.05</interval-sec>
+		<binding>
+			<command>property-adjust</command>
+			<property>/autopilot/settings/heading-bug-deg</property>
+			<step>1</step>
+			<min>0</min>
+			<max>360</max>
+			<wrap>1</wrap>
+		</binding>
+	</action>
+</animation>   
+
+<!--LoD-->
+
+<animation>
+	<type>range</type>
+	<min-m>0</min-m>
+	<max-m>5</max-m>
+</animation>
+
+</PropertyList>

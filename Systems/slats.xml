@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+
+<system name="slats">
+
+  <property value="1">systems/slats/initial</property>
+
+  <channel name="Slats">
+
+   <scheduled_gain name="alpha">
+      <input>systems/slats/initial</input>
+      <table>
+        <independentVar lookup="row">aero/alpha-deg</independentVar>
+         <tableData>
+			0.0		0
+            4.0		0
+            6.0		1
+         </tableData>
+      </table>
+     <output>systems/slats/alpha</output>
+   </scheduled_gain>
+
+   <scheduled_gain name="G">
+      <input>systems/slats/initial</input>
+      <table>
+        <independentVar lookup="row">/instrumentation/accelerometer/G</independentVar>
+         <tableData>
+			1.25		  0
+            2.25		  1
+         </tableData>
+      </table>
+     <output>systems/slats/G</output>
+   </scheduled_gain>
+
+	<summer name="maneuvering">
+		<input>systems/slats/alpha</input>
+		<input>systems/slats/G</input>
+		<clipto>
+			<min>0</min>
+			<max>1</max>
+		</clipto>
+		<output>systems/slats/maneuvering</output>
+	</summer>
+
+	<scheduled_gain name="low-speed">
+		<input>systems/slats/initial</input>
+		<table>
+			<independentVar lookup="row">velocities/vc-kts</independentVar>
+			<tableData>
+				0			1
+				200		1
+				225		0
+			</tableData>
+		</table>
+		<clipto>
+			<min>systems/slats/maneuvering</min>
+			<max>1</max>
+		</clipto>
+     <output>systems/slats/low-speed</output>
+   </scheduled_gain>
+
+     <switch>
+		<default value="systems/slats/low-speed"/>
+          <test value="systems/slats/maneuvering">
+				velocities/vc-kts GT 225
+                velocities/mach LT .65
+          </test>
+          <output>systems/slats/slat-pos-norm</output>
+     </switch>
+
+  </channel>
+
+</system>

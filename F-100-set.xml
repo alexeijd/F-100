@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<!--
+************************************************************************
+Republic F-100 config file
+David Culp,  davidculp2@comcast.net and Kent Esbenshade
+see attached file describing license.
+************************************************************************
+-->
+
+<PropertyList>
+
+ <sim>
+
+  <description>North American F-100D Super Sabre</description>
+  <author>David Culp, Alpha Simulations, Kent Esbenshade</author>
+  <status>alpha</status>
+  <flight-model>jsb</flight-model>
+  <aero>F-100D-jsbsim</aero>
+  
+  <startup>
+   <splash-texture>Aircraft/F-100/F-100-splash.png</splash-texture>
+  </startup>
+
+  <sound>
+    <path>Aircraft/F-100/Effects-Submodels/F-100-sound.xml</path>
+  </sound>
+
+  <submodels> 
+    <serviceable type="bool">true</serviceable>
+    <path>Aircraft/F-100/Effects-Submodels/submodels.xml</path>
+  </submodels>
+
+  <virtual-cockpit archive="y">true</virtual-cockpit>
+  <allow-toggle-cockpit archive="y">false</allow-toggle-cockpit>
+
+  <panel>
+    <visibility archive="y">false</visibility>
+  </panel>
+
+  <view n="0">
+   <internal archive="y">true</internal>
+   <config>
+    <pitch-offset-deg>-15.5</pitch-offset-deg>
+    <x-offset-m archive="y">0.0</x-offset-m><!-- right/left -->
+    <y-offset-m archive="y">.95</y-offset-m><!-- up/down -->
+    <z-offset-m archive="y">-3.25</z-offset-m><!-- aft/fore -->
+   </config>
+  </view>
+
+  <model>
+   <path>Aircraft/F-100/Models/F-100D.xml</path>
+  </model>
+
+  <chase-distance-m>-21</chase-distance-m>
+
+  <flaps>
+   <setting>0.00</setting>
+   <setting>0.50</setting> 
+   <setting>1.00</setting> 
+  </flaps>
+
+	<help>
+		<key>
+			<name>Shift-Q</name>
+			<desc>fuel cutoff switch or lever</desc>
+		</key>
+		<key>
+			<name>c (lower case c) </name>
+			<desc>Open/Close Canopy</desc>
+		</key>
+		<key>
+			<name>d (lower case d) </name>
+			<desc>Deploy Drag 'Chute</desc>
+		</key>
+		<key>
+			<name>j (lower case j) </name>
+			<desc>Jettison Drag 'Chute</desc>
+		</key>
+		<key>
+			<name>m (lower case m) </name>
+			<desc>Nose wheel steering</desc>
+		</key>
+		<key>
+			<name>n (lower case n) </name>
+			<desc>Toggle tailhook</desc>
+		</key>
+		<key>
+			<name>SPACE (space bar) </name>
+			<desc>Release selected stores</desc>
+		</key>
+		<key>
+			<name>Control-i</name>
+			<desc>Auto ILS Engage (automatically disengaged below 200 feet AGL)</desc>
+		</key>
+		<key>
+			<name>Control-o</name>
+			<desc>Auto ILS Disengage (automatically disengaged below 200 feet AGL)</desc>
+		</key>
+   <line> </line>
+   <line>Takeoff: full flaps, rotate at 165 kts. (155 kts. if clean)</line>
+   <line>Climb shallow until reaching climb speed!</line>
+   <line>Climb: 350 kts. / 0.84 mach</line>
+   <line>Cruise: 0.92 mach</line> 
+   <line>Landing: full flaps, final at 155 kts. + 3 kt. per 1000 lbs fuel/stores.</line>
+   <line> </line>
+   <line>Half Flap limit: 275 knots.</line>
+   <line>Gear and Full Flap limit: 240 knots.</line>
+   <line> </line>
+   <line>Be careful of adverse yaw at high AOA!  Use rudder to roll when at</line>
+   <line>high AOA. The high AOA buffet gives ample warning of when to watch</line>
+   <line>out.  Unloading at any speed will help with roll rate.</line>
+   <line> </line>
+   <line>Clickable panel.  Hit Ctrl-C to see hot spots.</line>
+   <line> </line>
+   <line>Standard load: </line>
+   <line>   Station 1:  unused</line>
+   <line>   Station 2:  335 gallon drop tank</line>
+   <line>   Station 3:  2 AIM-9Bs</line>
+   <line>   Station 4:  unused</line>
+   <line>   Station 5:  2 aim-9Bs</line>
+   <line>   Station 6:  335 gallon drop tank</line>
+   <line>   Station 7:  unused</line>
+   <text>
+   </text>
+  </help>
+
+	<systems>
+		<autopilot>
+			<path>Aircraft/F-100/Systems/autopilot.xml</path>
+		</autopilot>
+	</systems>
+
+	<ai>
+		<scenario>refueling_demo_2</scenario>
+	</ai>
+
+ </sim>
+
+<consumables>
+	<fuel>
+		<tank n="0">
+			<density-ppg archive="y">6.48</density-ppg>
+		</tank>
+		<tank n="1">
+			<density-ppg archive="y">6.48</density-ppg>
+		</tank>
+		<tank n="2">
+			<density-ppg archive="y">6.48</density-ppg>
+		</tank>
+	</fuel>
+</consumables>
+
+<controls>
+	<flight>
+		<elevator-trim>-0.23</elevator-trim>
+	</flight>
+	<lighting>
+		<panel-norm>.1</panel-norm>
+		<reticle>1</reticle>
+	</lighting>
+</controls>
+
+ <engines>
+  <engine n="0">
+    <running>true</running>
+  </engine>
+ </engines>
+
+<fdm>
+	<jsbsim>
+		<systems>
+			<canopy>
+				<command type="double">0</command>
+				<position type="double">0</position>
+			</canopy>
+			<hook>
+				<tailhook-cmd-norm type="double">0</tailhook-cmd-norm> 
+			</hook>
+			<refuel>
+				<armed type="double">0</armed>
+			</refuel>
+			<dump>
+				<armed type="double">0</armed>
+			</dump>
+			<NWS>
+				<engaged type="double">0</engaged>
+			</NWS>
+			<armament>
+				<tanks>
+					<selected type="int">1</selected>
+				</tanks>
+				<station3>
+					<selected type="int">1</selected>
+				</station3>
+				<station5>
+					<selected type="int">1</selected>
+				</station5>
+			</armament>
+		</systems>
+	</jsbsim>
+</fdm>  
+
+<gear>
+	<gear n="0">
+		<tyre-smoke type="int">0</tyre-smoke>
+		<sprayspeed-ms type="double">0</sprayspeed-ms>
+		<spray-density type="double">0</spray-density>
+		<caster-angle-deg-damped type="double">0</caster-angle-deg-damped>
+	</gear>
+
+	<gear n="1">
+		<tyre-smoke type="int">0</tyre-smoke>
+		<sprayspeed-ms type="double">0</sprayspeed-ms>
+		<spray-density type="double">0</spray-density>
+	</gear>
+
+	<gear n="2">
+		<tyre-smoke type="int">0</tyre-smoke>
+		<sprayspeed-ms type="double">0</sprayspeed-ms>
+		<spray-density type="double">0</spray-density>
+	</gear>
+</gear>
+
+<input>
+ <keyboard>
+
+	<key n="9">
+		<name>Control-i</name>
+		<desc>auto ILS on</desc>
+		<binding>
+			<command>property-assign</command>
+			<property>autopilot/locks/altitude</property>
+			<value>gs1-hold</value>
+		</binding>
+		<binding>
+			<command>property-assign</command>
+			<property>autopilot/locks/heading</property>
+			<value>nav1-hold</value>
+		</binding>
+		<binding>
+			<command>property-assign</command>
+			<property>autopilot/locks/speed</property>
+			<value>speed-with-throttle</value>
+		</binding>
+		<binding>
+			<command>property-assign</command>
+			<property>autopilot/settings/target-speed-kt</property>
+			<property>velocities/approach-speed</property>
+		</binding>
+	</key>
+
+	<key n="15">
+		<name>Control-o</name>
+		<desc>auto ILS off</desc>
+		<binding>
+			<command>property-assign</command>
+			<property>autopilot/locks/altitude</property>
+			<value></value>
+		</binding>
+		<binding>
+			<command>property-assign</command>
+			<property>autopilot/locks/heading</property>
+			<value></value>
+		</binding>
+		<binding>
+			<command>property-assign</command>
+			<property>autopilot/locks/speed</property>
+			<value></value>
+		</binding>
+	</key>
+
+  <key n="32">
+   <name>SPACE</name>
+   <desc>Release external stores</desc>
+    <binding>
+     <command>property-assign</command>
+     <property>fdm/jsbsim/systems/armament/release</property>
+     <value>1</value>
+    </binding>
+     <mod-up>
+       <binding>
+        <command>property-assign</command>
+        <property>fdm/jsbsim/systems/armament/release</property>
+        <value>0</value> 
+       </binding>
+     </mod-up>
+   </key>
+
+ <key n="81">
+  <name>Shift-Q</name>
+  <desc>Fuel Cutoff Switch or Lever.</desc>
+  <binding>
+   <condition>
+    <property>/sim/input/selected/engine[0]</property>
+   </condition>
+   <command>property-toggle</command>
+   <property>/controls/engines/engine[0]/cutoff</property>
+  </binding>
+ </key>
+
+    <key n="99">
+     <name>c</name>
+     <desc>toggle canopy</desc>
+     <binding>
+       <command>property-toggle</command>
+       <property>fdm/jsbsim/systems/canopy/command</property>
+     </binding>
+    </key>
+
+   <key n="100">
+     <name>d</name>
+     <desc>Deploy braking chute</desc>
+     <binding>
+      <command>property-assign</command>
+      <property>fdm/jsbsim/systems/chute/deploy</property>
+      <value type="int">1</value>
+     </binding>
+    </key>
+
+    <key n="106">
+      <name>j</name>
+      <desc>jettison braking chute</desc>
+      <binding>
+       <command>property-assign</command>
+       <property>fdm/jsbsim/systems/chute/deploy</property>
+       <value type="int">0</value>
+      </binding>
+      <binding>
+       <command>property-assign</command>
+       <property>controls/flight/chute_jettisoned</property>
+       <value type="int">1</value>
+      </binding>
+    </key>
+
+    <key n="109">
+     <name>m</name>
+     <desc>engage nose wheel steering</desc>
+     <binding>
+      <command>property-assign</command>
+      <property>fdm/jsbsim/systems/NWS/engaged</property>
+      <value>1</value> 
+     </binding>
+     <mod-up>
+       <binding>
+        <command>property-assign</command>
+        <property>fdm/jsbsim/systems/NWS/engaged</property>
+        <value>0</value> 
+       </binding>
+     </mod-up>
+    </key>
+
+    <key n="110">
+      <name>n</name>
+      <desc>Toggle tailhook.</desc>
+      <binding>
+       <command>property-toggle</command>
+       <property>fdm/jsbsim/systems/hook/tailhook-cmd-norm</property>
+      </binding>
+    </key>
+
+ </keyboard>
+</input>
+
+<instrumentation>
+	<accelerometer>
+		<G type="double">0</G>
+		<G-min type="double">1</G-min>
+		<G-max type="double">1</G-max>
+		<reset type="int">0</reset>
+	</accelerometer>
+	<attitude-indicator>
+		<horizon-offset-deg type="double" archive="y">0</horizon-offset-deg>
+	</attitude-indicator>
+	<cdi>
+		<course-set type="double">0</course-set>
+	</cdi>
+	<marker-beacon>
+		<volume type="double" archive="y">.25</volume>
+	</marker-beacon>
+	<radar>
+		<range type="int" archive="y">20</range>
+		<minimized type="bool" archive="y">false</minimized>
+	</radar>
+</instrumentation>
+
+<systems>
+	<refuel>
+		<type>probe</type>
+		<serviceable type="bool">true</serviceable>
+	</refuel>
+</systems>
+
+<nasal>
+	<aar>
+		<file>Aircraft/Generic/aar.nas</file>
+	</aar>
+	<F-100>
+		<file>Aircraft/F-100/Nasal/F-100D-instruments.nas</file>
+		<file>Aircraft/F-100/Nasal/tire-rotation.nas</file>
+		<file>Aircraft/F-100/Nasal/tire-smoke.nas</file>
+	</F-100>
+</nasal>
+
+</PropertyList>
+

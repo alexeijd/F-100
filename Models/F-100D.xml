@@ -1,0 +1,1243 @@
+<!-- A wrapper file for the F-100 3D model -->
+
+<PropertyList>
+
+ <path>F-100D.ac</path>
+
+<!--***INSTRUMENTS***-->
+
+ <model>
+  <path>Aircraft/F-100/Instruments/ai.xml</path>
+  <offsets>
+   <x-m>-4.150493</x-m>
+   <y-m>0.01</y-m>
+   <z-m>0.6333</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/accelerometer.xml</path>
+  <offsets>
+   <x-m>-4.095</x-m>
+   <y-m>0.152</y-m>
+   <z-m>0.631</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/alt.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>-0.18</y-m>
+   <z-m>0.538</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/asi.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>-0.18</y-m>
+   <z-m>0.6333</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/aux-panel.xml</path>
+  <offsets>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/ai-stby.xml</path>
+  <offsets>
+   <x-m>-4.142698</x-m>
+   <y-m>-0.265</y-m>
+   <z-m>0.535</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/camera-panel.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>0.01</y-m>
+   <z-m>0.705</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/cdi.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>-0.085</y-m>
+   <z-m>0.538</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/clock.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>-0.265</y-m>
+   <z-m>0.607</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/DME.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>-0.085</y-m>
+   <z-m>0.441</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/EGT.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>0.1935</y-m>
+   <z-m>0.535</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/EPR.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>0.25</y-m>
+   <z-m>0.438</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/fuel-panel.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>0.07</y-m>
+   <z-m>0.405</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/fuel1.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>0.032</y-m>
+   <z-m>0.449</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/fuel2.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>0.097</y-m>
+   <z-m>0.440</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/fuel-flow.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>0.163</y-m>
+   <z-m>0.440</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/gear-panel.xml</path>
+  <offsets>
+   <x-m>-4.095</x-m>
+   <y-m>-0.43</y-m>
+   <z-m>0.44</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/gunsight.xml</path>
+  <offsets>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/HSI.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>-0.085</y-m>
+   <z-m>0.6333</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/hydraulic-panel.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>0.217</y-m>
+   <z-m>0.717</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/hyd-press.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>0.249</y-m>
+   <z-m>0.65</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/LABS.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>0.105</y-m>
+   <z-m>0.533</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/light-panel.xml</path>
+  <offsets>
+   <x-m>-3.960000</x-m>
+   <y-m>0.491479</y-m>
+   <z-m>0.400685</z-m>
+   <roll-deg>16</roll-deg>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/loadmeter1.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>-0.19</y-m>
+   <z-m>0.70</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/loadmeter2.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>-0.14</y-m>
+   <z-m>0.70</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/missile-panel.xml</path>
+  <offsets>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/oil-press.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>0.252</y-m>
+   <z-m>0.5835</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/RDMI.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>-0.180</y-m>
+   <z-m>0.441</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/tach.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>0.27</y-m>
+   <z-m>0.518</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/turn-slip.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>0.088</y-m>
+   <z-m>0.619</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/uhf.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>-0.265</y-m>
+   <z-m>0.679</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/vvi.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>0.01</y-m>
+   <z-m>0.538</z-m>
+  </offsets>
+ </model>
+
+<!--***warning lights***-->
+
+ <model>
+  <path>Aircraft/F-100/Instruments/fire-eng-lights.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>0.104</y-m>
+   <z-m>0.67</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/F-100/Instruments/mast-caut-light.xml</path>
+  <offsets>
+   <x-m>-4.118975</x-m>
+   <y-m>-0.08</y-m>
+   <z-m>0.69</z-m>
+  </offsets>
+ </model>
+
+<!--Metal Effects-->
+
+<animation>
+	<type>noshadow</type>
+		<object-name>afterburner-can</object-name>
+		<object-name>nav-lights</object-name>
+		<object-name>oleo</object-name>
+</animation>
+
+<animation>
+	<type>shader</type>
+	<shader>chrome</shader>
+	<texture>med-metal.png</texture>
+		<object-name>oleo</object-name>
+</animation>
+
+<animation>
+	<type>shader</type>
+	<shader>chrome</shader>
+	<texture>dark-metal.png</texture>
+		<object-name>afterburner-can</object-name>
+</animation>
+
+<!--glass shader-->
+
+<animation>
+	<type>shader</type>
+	<shader>chrome</shader>
+	<texture>glass-shader.png</texture>
+	<object-name>canopy</object-name>
+	<object-name>windscreen</object-name>
+</animation>
+
+<!--tire smoke-->
+
+<model>
+	<path>Aircraft/F-100/Effects-Submodels/tire-smoke-nose.xml</path>
+	<name>tire-smoke-nose</name>
+	<offsets>
+		<x-m>-3.781296</x-m>
+		<y-m>0</y-m>
+		<z-m>-2.012078</z-m>
+	</offsets>
+</model>
+
+<model>
+	<path>Aircraft/F-100/Effects-Submodels/tire-smoke-left.xml</path>
+	<name>tire-smoke-left</name>
+	<offsets>
+		<x-m>0.807337</x-m>
+		<y-m>-1.878272</y-m>
+		<z-m>-1.807425</z-m>
+	</offsets>
+</model>
+
+<model>
+	<path>Aircraft/F-100/Effects-Submodels/tire-smoke-right.xml</path>
+	<name>tire-smoke-right</name>
+	<offsets>
+		<x-m>0.807337</x-m>
+		<y-m>1.878272</y-m>
+		<z-m>-1.807425</z-m>
+	</offsets>
+</model>
+
+ <!-- Drag Chute -->
+
+ <model>
+   <path>Aircraft/F-100/Effects-Submodels/chute.xml</path>
+   <offsets>
+     <x-m>4.736145</x-m>
+     <y-m>-0.354712</y-m>
+     <z-m>-0.597347</z-m>
+     <pitch-deg>0</pitch-deg>
+   </offsets>
+ </model>
+
+ <!-- Nozzle and afterburner effects -->
+ <model>
+   <path>Aircraft/F-100/Effects-Submodels/nozzle-afterburner.xml</path>
+   <offsets>
+     <x-m>0</x-m>
+     <y-m>0</y-m>
+     <z-m>0</z-m>
+   </offsets>
+ </model>
+
+ <!-- Wing-tip vortices -->
+ <model>
+   <path>Aircraft/F-100/Effects-Submodels/vortex.xml</path>
+   <offsets>
+     <x-m>3.8</x-m>
+     <y-m>-5.6</y-m>
+     <z-m>-0.3</z-m>
+     <pitch-deg>0</pitch-deg>
+   </offsets>
+ </model>
+ <model>
+   <path>Aircraft/F-100/Effects-Submodels/vortex.xml</path>
+   <offsets>
+     <x-m>3.8</x-m>
+     <y-m>5.6</y-m>
+     <z-m>-0.3</z-m>
+     <pitch-deg>0</pitch-deg>
+   </offsets>
+ </model>
+
+ <!-- beacon flash -->
+
+ <model>
+   <path>Aircraft/F-100/Effects-Submodels/flash.xml</path>
+   <offsets>
+     <x-m>-1.278</x-m>
+     <y-m>0</y-m>
+     <z-m>1.124</z-m>
+   </offsets>
+ </model>
+
+<!-- landing and nav lights-->
+
+<animation>
+	<type>select</type>
+	<object-name>landing-lights-on</object-name>
+	<condition>
+		<and>
+			<equals>
+				<property>/controls/gear/landing-lights</property>
+				<value>1</value>
+			</equals>
+			<greater-than>
+				<property>/controls/gear/landing-lights-pos-norm</property>
+				<value>0</value>
+			</greater-than>
+		</and>
+	</condition>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>landing-lights-off</object-name>
+	<condition>
+		<or>
+			<equals>
+				<property>/controls/gear/landing-lights</property>
+				<value>0</value>
+			</equals>
+			<equals>
+				<property>gear/gear[0]/position-norm</property>
+				<value>0</value>
+			</equals>
+		</or>
+	</condition>
+</animation>
+
+<animation> 
+	<type>rotate</type>
+	<object-name>landing-lights</object-name>
+	<property>/controls/gear/landing-lights-pos-norm</property>
+	<factor>90</factor>
+	<center> 
+		<x-m>-2.529672</x-m>
+		<y-m>0</y-m>
+		<z-m>-0.703408</z-m>
+	</center>
+	<axis> 
+		<y>1</y>
+	</axis>
+</animation>
+
+ <!-- wing drop tanks -->
+
+ <model>
+   <path>Aircraft/F-100/Effects-Submodels/tanks.xml</path>
+   <offsets>
+     <x-m>0</x-m>
+     <y-m>0</y-m>
+     <z-m>0</z-m>
+   </offsets>
+ </model>
+
+ <!--AIM-9Bs-->
+
+ <model>
+   <path>Aircraft/F-100/Effects-Submodels/left-AIM-9Bs.xml</path>
+   <offsets>
+     <x-m>0</x-m>
+     <y-m>0</y-m>
+     <z-m>0</z-m>
+   </offsets>
+ </model>
+
+ <model>
+   <path>Aircraft/F-100/Effects-Submodels/right-AIM-9Bs.xml</path>
+   <offsets>
+     <x-m>0</x-m>
+     <y-m>0</y-m>
+     <z-m>0</z-m>
+   </offsets>
+ </model>
+
+ <!-- Landing Gear and Doors -->
+	
+	<!--selections-->
+
+<animation>
+	<type>select</type>
+	<object-name>left-strut-assembly</object-name>
+	<object-name>right-strut-assembly</object-name>
+	<object-name>left-strut-ram-door2a</object-name>
+	<object-name>right-strut-ram-door2a</object-name>
+	<object-name>tail-skid</object-name>
+	<condition>
+		<greater-than>
+			<property>/gear/gear[0]/position-norm</property>
+			<value>0.05</value>
+		</greater-than>
+	</condition>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>left-strut-ram-door2b</object-name>
+	<object-name>right-strut-ram-door2b</object-name>
+	<condition>
+		<equals>
+			<property>/gear/gear[0]/position-norm</property>
+			<value>0</value>
+		</equals>
+	</condition>
+</animation>
+
+	<!--nose-->
+
+<animation>
+	<type>spin</type>
+	<object-name>left-nose-tire</object-name>
+	<object-name>right-nose-tire</object-name>
+	<property>/fdm/jsbsim/gear/unit[0]/RPM</property>
+	<condition>
+		<equals>
+			<property>fdm/jsbsim/gear/unit[0]/WOW</property>
+			<value type="bool">true</value>
+		</equals>
+	</condition>
+   <center>
+     <x-m>-3.851660</x-m>
+     <y-m>0</y-m>
+     <z-m>-1.844685</z-m>
+   </center>
+	<axis> 
+		<y>-1</y>
+	</axis>
+</animation>
+
+<animation>
+   <type>rotate</type>
+   <object-name>lower-nose-scissors</object-name>
+   <property>gear/gear[0]/compression-norm</property>
+	<interpolation>
+	   <entry><ind>0</ind><dep>0</dep></entry>
+	   <entry><ind>1</ind><dep>35</dep></entry>
+	</interpolation>
+   <axis>
+     <y>-1</y>
+   </axis>
+   <center>
+     <x-m>-4.098718</x-m>
+     <y-m>0</y-m>
+     <z-m>-1.590539</z-m>
+   </center>
+</animation>
+
+<animation>
+	<type>translate</type>
+	<object-name>lower-nose-strut-assembly</object-name>
+	<property>gear/gear[0]/compression-norm</property>
+	<interpolation>
+	   <entry><ind>0</ind><dep>0</dep></entry>
+	   <entry><ind>1</ind><dep>.133817</dep></entry>
+	</interpolation>
+	<axis>
+		<z>1</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>upper-strut2</object-name>
+	<object-name>upper-nose-scissors</object-name>
+	<object-name>lower-nose-scissors</object-name>
+	<object-name>lower-nose-strut-assembly</object-name>
+	<property>/fdm/jsbsim/systems/NWS/steer-cmd</property>
+	<condition>
+		<equals>
+			<property>fdm/jsbsim/systems/NWS/engaged</property>
+			<value>1</value>
+		</equals>
+	</condition>
+	<interpolation>
+		<entry><ind>-.5</ind><dep>-60</dep></entry> 
+		<entry><ind>0</ind><dep>0</dep></entry>
+  		<entry><ind>.5</ind><dep>60</dep></entry> 
+	</interpolation>
+	<axis>
+		<z>-1</z>
+	</axis>
+	<center>
+		<x-m>-3.841801</x-m>
+		<y-m>0</y-m>
+		<z-m>0</z-m>
+	</center>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>nose-gear-assembly</object-name>
+  <property>/gear/gear[0]/position-norm</property>
+  <factor>-100</factor>
+  <offset-deg>100</offset-deg>   
+  <center>
+   <x-m>-3.841798</x-m>
+   <y-m>0</y-m>
+   <z-m>-0.559632</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>-1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>nose-door1</object-name>
+  <property>/gear/gear[0]/position-norm</property>
+  <factor>100</factor>
+  <axis>
+     <x1-m>-3.896861</x1-m>
+     <y1-m>-0.207650</y1-m>
+     <z1-m>-0.622491</z1-m>
+     <x2-m>-3.896861</x2-m>
+     <y2-m>0.212416</y2-m>
+     <z2-m>-0.622491</z2-m>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>nose-door2</object-name>
+  <property>/gear/gear[0]/position-norm</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>0</dep></entry>
+		<entry><ind>0.1</ind><dep>-90</dep></entry>
+		<entry><ind>0.9</ind><dep>-90</dep></entry>
+		<entry><ind>1</ind><dep>0</dep></entry>
+  </interpolation>
+  <axis>
+     <x1-m>-2.301858</x1-m>
+     <y1-m>0.212178</y1-m>
+     <z1-m>-0.717026</z1-m>
+     <x2-m>-3.390614</x2-m>
+     <y2-m>0.212416</y2-m>
+     <z2-m>-0.653995</z2-m>
+  </axis>
+ </animation>
+
+	<!--compression, both main gear-->
+
+<animation>
+   <type>rotate</type>
+   <object-name>main-lower-scissors</object-name>
+   <property>gear/gear[1]/compression-norm</property>
+	<interpolation>
+	   <entry><ind>0</ind><dep>0</dep></entry>
+	   <entry><ind>1</ind><dep>45</dep></entry>
+	</interpolation>
+   <axis>
+     <y>1</y>
+   </axis>
+   <center>
+     <x-m>0.959208</x-m>
+     <y-m>0</y-m>
+     <z-m>-1.362460</z-m>
+   </center>
+</animation>
+
+<animation>
+	<type>translate</type>
+	<object-name>main-lower-strut-assembly</object-name>
+	<property>gear/gear[1]/compression-norm</property>
+	<interpolation>
+	   <entry><ind>0</ind><dep>0</dep></entry>
+	   <entry><ind>1</ind><dep>.138115</dep></entry>
+	</interpolation>
+	<axis> 
+		<z>1</z>
+	</axis>
+</animation>
+
+	<!--left main-->
+
+<animation>
+	<type>spin</type>
+	<object-name>left-tire</object-name>
+	<property>/fdm/jsbsim/gear/unit[1]/RPM</property>
+	<condition>
+		<equals>
+			<property>fdm/jsbsim/gear/unit[1]/WOW</property>
+			<value type="bool">true</value>
+		</equals>
+	</condition>
+   <center>
+     <x-m>0.596402</x-m>
+     <y-m>0</y-m>
+     <z-m>-1.494133</z-m>
+   </center>
+	<axis> 
+		<y>-1</y>
+	</axis>
+</animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>left-strut-assembly</object-name>
+  <property>/gear/gear/position-norm</property>
+  <interpolation>
+    <entry><ind>0</ind><dep>-90</dep></entry>
+    <entry><ind>1</ind><dep>0</dep></entry>
+  </interpolation>
+  <center>
+   <x-m>0</x-m>
+   <y-m>-1.630950</y-m>
+   <z-m>-0.302848</z-m>
+  </center>
+  <axis>
+   <x>-1</x>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>left-strut-assembly</object-name>
+  <property>/gear/gear/position-norm</property>
+  <interpolation>
+    <entry><ind>0</ind><dep>15</dep></entry>
+    <entry><ind>1</ind><dep>0</dep></entry>
+  </interpolation>
+  <center>
+   <x-m>0</x-m>
+   <y-m>-1.630950</y-m>
+   <z-m>-0.302848</z-m>
+  </center>
+  <axis>
+   <y>1</y>
+  </axis>
+ </animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>left-strut-ram</object-name>
+	<object-name>left-strut-ram-door2a</object-name>
+	<property>/gear/gear/position-norm</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>-40</dep></entry>
+		<entry><ind>1</ind><dep>0</dep></entry>
+	</interpolation>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-2.228270</y-m>
+		<z-m>-0.305687</z-m>
+	</center>
+	<axis>
+		<x>-1</x>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>left-strut-ram-door1</object-name>
+	<property>/gear/gear/position-norm</property>
+	<factor>60</factor>
+	<axis>
+		<x1-m>1.016405</x1-m>
+		<y1-m>-2.134765</y1-m>
+		<z1-m>-0.405163</z1-m>
+		<x2-m>0.906654</x2-m>
+		<y2-m>-2.134765</y2-m>
+		<z2-m>-0.412975</z2-m>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>left-strut-door</object-name>
+	<property>/gear/gear/position-norm</property>
+	<factor>105</factor>
+	<axis>
+		<x1-m>0.759424</x1-m>
+		<y1-m>-1.775413</y1-m>
+		<z1-m>-0.411652</z1-m>
+		<x2-m>0.514832</x2-m>
+		<y2-m>-1.775413</y2-m>
+		<z2-m>-0.421672</z2-m>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>left-main-door</object-name>
+	<property>/gear/gear/position-norm</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>0</dep></entry>
+		<entry><ind>0.1</ind><dep>-90</dep></entry>
+		<entry><ind>0.9</ind><dep>-90</dep></entry>
+		<entry><ind>1</ind><dep>0</dep></entry>
+  </interpolation>
+	<axis>
+		<x1-m>0.773325</x1-m>
+		<y1-m>-0.068563</y1-m>
+		<z1-m>-0.791533</z1-m>
+		<x2-m>-0.196484</x2-m>
+		<y2-m>-0.068563</y2-m>
+		<z2-m>-0.774107</z2-m>
+	</axis>
+</animation>
+
+	<!--right main-->
+
+<animation>
+	<type>spin</type>
+	<object-name>right-tire</object-name>
+	<property>/fdm/jsbsim/gear/unit[2]/RPM</property>
+	<condition>
+		<equals>
+			<property>fdm/jsbsim/gear/unit[2]/WOW</property>
+			<value type="bool">true</value>
+		</equals>
+	</condition>
+   <center>
+     <x-m>0.596402</x-m>
+     <y-m>0</y-m>
+     <z-m>-1.494133</z-m>
+   </center>
+	<axis> 
+		<y>-1</y>
+	</axis>
+</animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right-strut-assembly</object-name>
+  <property>/gear/gear/position-norm</property>
+  <interpolation>
+    <entry><ind>0</ind><dep>90</dep></entry>
+    <entry><ind>1</ind><dep>0</dep></entry>
+  </interpolation>
+  <center>
+   <x-m>0</x-m>
+   <y-m>1.630950</y-m>
+   <z-m>-0.302848</z-m>
+  </center>
+  <axis>
+   <x>-1</x>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right-strut-assembly</object-name>
+  <property>/gear/gear/position-norm</property>
+  <interpolation>
+    <entry><ind>0</ind><dep>15</dep></entry>
+    <entry><ind>1</ind><dep>0</dep></entry>
+  </interpolation>
+  <center>
+   <x-m>0</x-m>
+   <y-m>1.630950</y-m>
+   <z-m>-0.302848</z-m>
+  </center>
+  <axis>
+   <y>1</y>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right-strut-ram</object-name>
+	<object-name>right-strut-ram-door2a</object-name>
+  <property>/gear/gear/position-norm</property>
+  <interpolation>
+    <entry><ind>0</ind><dep>40</dep></entry>
+    <entry><ind>1</ind><dep>0</dep></entry>
+  </interpolation>
+  <center>
+   <x-m>0</x-m>
+   <y-m>2.228270</y-m>
+   <z-m>-0.305687</z-m>
+  </center>
+  <axis>
+   <x>-1</x>
+  </axis>
+ </animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>right-strut-ram-door1</object-name>
+	<property>/gear/gear/position-norm</property>
+	<factor>-60</factor>
+	<axis>
+		<x1-m>1.016405</x1-m>
+		<y1-m>2.134776</y1-m>
+		<z1-m>-0.405163</z1-m>
+		<x2-m>0.906654</x2-m>
+		<y2-m>2.134776</y2-m>
+		<z2-m>-0.412975</z2-m>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>right-strut-door</object-name>
+	<property>/gear/gear/position-norm</property>
+	<factor>-105</factor>
+	<axis>
+		<x1-m>0.759424</x1-m>
+		<y1-m>1.775429</y1-m>
+		<z1-m>-0.411653</z1-m>
+		<x2-m>0.514832</x2-m>
+		<y2-m>1.775429</y2-m>
+		<z2-m>-0.421672</z2-m>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>right-main-door</object-name>
+	<property>/gear/gear/position-norm</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>0</dep></entry>
+		<entry><ind>0.1</ind><dep>90</dep></entry>
+		<entry><ind>0.9</ind><dep>90</dep></entry>
+		<entry><ind>1</ind><dep>0</dep></entry>
+  </interpolation>
+	<axis>
+		<x1-m>0.773325</x1-m>
+		<y1-m>0.068569</y1-m>
+		<z1-m>-0.791533</z1-m>
+		<x2-m>-0.196484</x2-m>
+		<y2-m>0.068569</y2-m>
+		<z2-m>-0.765745</z2-m>
+	</axis>
+</animation>
+
+ <!-- Horizontal Stabilizers -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>horiz-stabs</object-name>
+  <property>surface-positions/elevator-pos-norm</property>
+  <factor>20</factor>
+  <center>
+   <x-m>4.41</x-m>
+   <y-m>0</y-m>
+   <z-m>-0.305</z-m>
+  </center>
+  <axis>
+   <y>1</y>
+  </axis>
+ </animation>
+
+<!-- Rudder -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>rudder</object-name>
+  <property>surface-positions/rudder-pos-norm</property>
+  <factor>15</factor>
+  <axis>
+     <x1-m>4.634</x1-m>
+     <y1-m>0</y1-m>
+     <z1-m>0.732</z1-m>
+     <x2-m>5.697</x2-m>
+     <y2-m>0</y2-m>
+     <z2-m>2.125</z2-m>
+  </axis>
+ </animation>
+
+<!-- Left Flap -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>left-flap</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>-35</factor>
+  <axis>
+     <x1-m>0.975472</x1-m>
+     <y1-m>-0.793374</y1-m>
+     <z1-m>-0.332776</z1-m>
+     <x2-m>1.707032</x2-m>
+     <y2-m>-2.134770</y2-m>
+     <z2-m>-0.304686</z2-m>
+  </axis>
+ </animation>
+ 
+<!-- Right Flap -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right-flap</object-name>
+  <property>surface-positions/flap-pos-norm</property>
+  <factor>35</factor>
+  <axis>
+     <x1-m>0.975472</x1-m>
+     <y1-m> 0.793374</y1-m>
+     <z1-m>-0.332776</z1-m>
+     <x2-m>1.707032</x2-m>
+     <y2-m> 2.134770</y2-m>
+     <z2-m>-0.304686</z2-m>
+  </axis>
+ </animation>
+
+<!-- Left Slat -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>left-slat</object-name>
+  <property>fdm/jsbsim/systems/slats/slat-pos-norm</property>
+  <factor>19</factor>
+  <axis>
+     <x1-m>-1.201760</x1-m>
+     <y1-m>-1.425869</y1-m>
+     <z1-m>-0.303260</z1-m>
+     <x2-m> 3.263902</x2-m>
+     <y2-m>-5.722939</y2-m>
+     <z2-m>-0.305666</z2-m>
+  </axis>
+ </animation>
+
+<!-- Right Slat -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right-slat</object-name>
+  <property>fdm/jsbsim/systems/slats/slat-pos-norm</property>
+  <factor>-19</factor>
+  <axis>
+     <x1-m>-1.201760</x1-m>
+     <y1-m> 1.425869</y1-m>
+     <z1-m>-0.303260</z1-m>
+     <x2-m> 3.263902</x2-m>
+     <y2-m> 5.722939</y2-m>
+     <z2-m>-0.305666</z2-m>
+  </axis>
+ </animation>
+
+ <!-- Left Aileron -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>left-aileron</object-name>
+  <property>surface-positions/left-aileron-pos-norm</property>
+  <factor>-15</factor>
+  <axis>
+     <x1-m>1.707032</x1-m>
+     <y1-m>-2.134769</y1-m>
+     <z1-m>-0.304686</z1-m>
+     <x2-m>3.339842</x2-m>
+     <y2-m>-4.666019</y2-m>
+     <z2-m>-0.304688</z2-m>
+  </axis>
+ </animation>
+
+ <!-- Right Aileron -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right-aileron</object-name>
+  <property>surface-positions/right-aileron-pos-norm</property>
+  <factor>-15</factor>
+  <axis>
+     <x1-m>1.707032</x1-m>
+     <y1-m>2.134769</y1-m>
+     <z1-m>-0.304686</z1-m>
+     <x2-m>3.339842</x2-m>
+     <y2-m>4.666019</y2-m>
+     <z2-m>-0.304688</z2-m>
+  </axis>
+ </animation>
+
+ <!--Speedbrake-->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>speedbrake</object-name>
+  <property>surface-positions/speedbrake-pos-norm</property>
+  <factor>50</factor>
+  <center>
+     <x-m>-2.120124</x-m>
+     <y-m>0</y-m>
+     <z-m>-0.710481</z-m>
+  </center>
+  <axis>
+     <y>1</y>
+  </axis>
+ </animation>
+
+ <!--Canopy-->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>canopy-assembly</object-name>
+  <property>/canopy/position-norm</property>
+  <factor>30</factor>
+  <center>
+     <x-m>-2.499753</x-m>
+     <y-m>0</y-m>
+     <z-m>0.884886</z-m>
+  </center>
+  <axis>
+     <y>1</y>
+  </axis>
+ </animation>
+
+<!-- drag chute doors -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>left-chute-door</object-name>
+  <!--property>/fdm/jsbsim/systems/chute/deploy</property-->
+  <property>/fdm/jsbsim/systems/chute-doors/open-norm</property>
+  <factor>90</factor>
+  <axis>
+     <x1-m>5.381575</x1-m>
+     <y1-m>-0.422666</y1-m>
+     <z1-m>-0.519712</z1-m>
+     <x2-m>4.736146</x2-m>
+     <y2-m>-0.470625</y2-m>
+     <z2-m>-0.565264</z2-m>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>right-chute-door</object-name>
+  <!--property>/fdm/jsbsim/systems/chute/deploy</property-->
+  <property>/fdm/jsbsim/systems/chute-doors/open-norm</property>
+  <factor>-90</factor>
+  <axis>
+     <x1-m>5.381575</x1-m>
+     <y1-m>-0.178644</y1-m>
+     <z1-m>-0.576525</z1-m>
+     <x2-m>4.736146</x2-m>
+     <y2-m>-0.238799</y2-m>
+     <z2-m>-0.629430</z2-m>
+  </axis>
+ </animation>
+
+<!--***tail skid***-->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>tail-skid</object-name>
+  <property>/gear/gear[0]/position-norm</property>
+  <offset-deg>-35</offset-deg>
+  <factor>35</factor>
+  <center>
+     <x-m>4.968</x-m>
+     <y-m>0</y-m>
+     <z-m>-0.611</z-m>
+  </center>
+  <axis>
+     <x>0</x>
+     <y>1</y>
+     <z>0</z>
+  </axis>
+ </animation>
+
+ <!-- Hook-->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>hook</object-name>
+  <property>gear/tailhook/position-norm</property>
+  <factor>-30</factor>
+  <offset-deg>0</offset-deg>
+  <center>
+     <x-m>3.016</x-m>
+     <y-m>0</y-m>
+     <z-m>-0.688</z-m>
+  </center>
+  <axis>
+     <x>0</x>
+     <y>-1</y>
+     <z>0</z>
+  </axis>
+ </animation>
+
+ <!-- Suppress Seat/Pilot Models in Cockpit View -->
+ <animation>
+  <type>select</type>
+  <object-name>pilot</object-name>
+  <object-name>seat</object-name>
+  <condition>
+   <not>
+   <equals>
+    <property>/sim/current-view/view-number</property>
+    <value>0</value>
+   </equals>
+   </not>
+  </condition>
+ </animation>
+
+ <!-- Rotating beacon flash -->
+ <animation>
+  <type>material</type>
+  <object-name>beacon</object-name>
+  <emission>
+    <factor-prop>sim/multiplay/generic/float[0]</factor-prop>
+    <red>1</red>
+    <green>0</green>
+    <blue>0</blue>
+  </emission>
+ </animation>
+
+</PropertyList>
+ 

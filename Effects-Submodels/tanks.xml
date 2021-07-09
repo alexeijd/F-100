@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<!--drop tanks, by Dave Culp -->
+
+<PropertyList>
+
+ <path>tanks.ac</path>
+
+ <animation>
+  <type>select</type>
+  <object-name>tanks</object-name>
+  <condition>
+   <not>
+     <property>fdm/jsbsim/systems/armament/tanks/released</property>
+   </not>
+  </condition>
+ </animation>  
+
+</PropertyList>

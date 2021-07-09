@@ -1,0 +1,280 @@
+AC3Db
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 1 1 1  emis 1 1 1  spec 1 1 1  shi 128  trans 0
+OBJECT world
+kids 4
+OBJECT poly
+name "trace"
+loc -4.4705 -0.551115 0.237988
+crease 45.000000
+numvert 7
+0 0 0
+-20 0.04 0
+-20 0.02 0.0346439
+-20 -0.02 0.034642
+-20 -0.04 0
+-20 -0.02 -0.034644
+-20 0.02 -0.0346421
+numsurf 9
+SURF 0x0
+mat 0
+refs 4
+5 0 0
+4 0 0
+2 0 0
+1 0 0
+SURF 0x0
+mat 0
+refs 3
+4 0 0
+3 0 0
+2 0 0
+SURF 0x0
+mat 0
+refs 3
+6 0 0
+5 0 0
+1 0 0
+SURF 0x0
+mat 0
+refs 3
+0 0 0
+6 0 0
+1 0 0
+SURF 0x0
+mat 0
+refs 3
+2 0 0
+0 0 0
+1 0 0
+SURF 0x0
+mat 0
+refs 3
+3 0 0
+0 0 0
+2 0 0
+SURF 0x0
+mat 0
+refs 3
+4 0 0
+0 0 0
+3 0 0
+SURF 0x0
+mat 0
+refs 3
+5 0 0
+0 0 0
+4 0 0
+SURF 0x0
+mat 0
+refs 3
+6 0 0
+0 0 0
+5 0 0
+kids 0
+OBJECT poly
+name "trace"
+loc -4.4705 -0.551172 -0.238979
+crease 45.000000
+numvert 7
+-20 0.02 -0.0346421
+-20 -0.02 -0.034644
+-20 -0.04 0
+-20 -0.02 0.034642
+-20 0.02 0.0346439
+-20 0.04 0
+0 0 0
+numsurf 9
+SURF 0x0
+mat 0
+refs 3
+0 0 0
+6 0 0
+1 0 0
+SURF 0x0
+mat 0
+refs 3
+1 0 0
+6 0 0
+2 0 0
+SURF 0x0
+mat 0
+refs 3
+2 0 0
+6 0 0
+3 0 0
+SURF 0x0
+mat 0
+refs 3
+3 0 0
+6 0 0
+4 0 0
+SURF 0x0
+mat 0
+refs 3
+4 0 0
+6 0 0
+5 0 0
+SURF 0x0
+mat 0
+refs 3
+6 0 0
+0 0 0
+5 0 0
+SURF 0x0
+mat 0
+refs 3
+0 0 0
+1 0 0
+5 0 0
+SURF 0x0
+mat 0
+refs 3
+2 0 0
+3 0 0
+4 0 0
+SURF 0x0
+mat 0
+refs 4
+1 0 0
+2 0 0
+4 0 0
+5 0 0
+kids 0
+OBJECT poly
+name "trace"
+loc -5.0796 -0.380411 -0.55361
+crease 45.000000
+numvert 7
+0 0 0
+-20 0.04 0
+-20 0.02 0.0346439
+-20 -0.02 0.034642
+-20 -0.04 0
+-20 -0.02 -0.034644
+-20 0.02 -0.034642
+numsurf 9
+SURF 0x0
+mat 0
+refs 4
+5 0 0
+4 0 0
+2 0 0
+1 0 0
+SURF 0x0
+mat 0
+refs 3
+4 0 0
+3 0 0
+2 0 0
+SURF 0x0
+mat 0
+refs 3
+6 0 0
+5 0 0
+1 0 0
+SURF 0x0
+mat 0
+refs 3
+0 0 0
+6 0 0
+1 0 0
+SURF 0x0
+mat 0
+refs 3
+2 0 0
+0 0 0
+1 0 0
+SURF 0x0
+mat 0
+refs 3
+3 0 0
+0 0 0
+2 0 0
+SURF 0x0
+mat 0
+refs 3
+4 0 0
+0 0 0
+3 0 0
+SURF 0x0
+mat 0
+refs 3
+5 0 0
+0 0 0
+4 0 0
+SURF 0x0
+mat 0
+refs 3
+6 0 0
+0 0 0
+5 0 0
+kids 0
+OBJECT poly
+name "trace"
+loc -5.0796 -0.382084 0.555966
+crease 45.000000
+numvert 7
+-20 0.02 -0.034642
+-20 -0.02 -0.034644
+-20 -0.04 0
+-20 -0.02 0.034642
+-20 0.02 0.0346439
+-20 0.04 0
+0 0 0
+numsurf 9
+SURF 0x0
+mat 0
+refs 3
+0 0 0
+6 0 0
+1 0 0
+SURF 0x0
+mat 0
+refs 3
+1 0 0
+6 0 0
+2 0 0
+SURF 0x0
+mat 0
+refs 3
+2 0 0
+6 0 0
+3 0 0
+SURF 0x0
+mat 0
+refs 3
+3 0 0
+6 0 0
+4 0 0
+SURF 0x0
+mat 0
+refs 3
+4 0 0
+6 0 0
+5 0 0
+SURF 0x0
+mat 0
+refs 3
+6 0 0
+0 0 0
+5 0 0
+SURF 0x0
+mat 0
+refs 3
+0 0 0
+1 0 0
+5 0 0
+SURF 0x0
+mat 0
+refs 3
+2 0 0
+3 0 0
+4 0 0
+SURF 0x0
+mat 0
+refs 4
+1 0 0
+2 0 0
+4 0 0
+5 0 0
+kids 0

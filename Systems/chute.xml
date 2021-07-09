@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+
+<system name="drag chute">
+
+  <property value="0">systems/chute/deploy</property>
+
+  <channel name="doors">
+
+   <kinematic name="drag chute doors open">
+     <input>systems/chute/deploy</input>
+     <traverse>
+       <setting>
+          <position> 0 </position>
+          <time> 0 </time>
+       </setting>
+       <setting>
+          <position> 1 </position>
+          <time> .5 </time>
+       </setting>
+     </traverse>
+     <output>systems/chute-doors/open-norm</output>
+   </kinematic>
+
+  </channel>
+
+  <channel name="chute">
+
+   <kinematic name="drag chute deploy">
+     <input>systems/chute/deploy</input>
+     <traverse>
+       <setting>
+          <position> 0 </position>
+          <time> 0 </time>
+       </setting>
+       <setting>
+          <position> 0 </position>
+          <time> .5 </time>
+       </setting>
+       <setting>
+          <position> 1 </position>
+          <time> 2 </time>
+       </setting>
+     </traverse>
+     <output>systems/chute/unfurl-norm</output>
+   </kinematic>
+
+  </channel>
+
+</system>

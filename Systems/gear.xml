@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<system name="landing-gear">
+
+  <channel name="gear">
+
+	<kinematic name="control">
+		<input>gear/gear-cmd-norm</input>
+		<traverse>
+			<setting>
+				<position>0</position>
+				<time>0</time>
+			</setting>
+			<setting>
+				<position>1</position>
+				<time>5</time>
+			</setting>
+		</traverse>
+		<output>gear/gear-pos-norm</output>
+	</kinematic>
+
+	<switch>
+		<default value="0"/>
+		<test value="1">
+			/sim/time/sun-angle-rad GT 1.56
+		</test>
+	<output>/controls/gear/landing-lights</output>
+	</switch>
+
+	<pure_gain>
+		<input>gear/gear-pos-norm</input>
+		<gain>/controls/gear/landing-lights</gain>
+		<output>/controls/gear/landing-lights-pos-norm</output>
+	</pure_gain>
+
+  </channel>
+
+</system>

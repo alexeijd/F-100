@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+
+<!--***F-100 armament & external fuel***-->
+
+<system name="armament">
+
+  <property value="0">systems/armament/release</property>
+
+  <channel name="Armament">
+
+     <!-- jettison drop tanks, stations 2 and 6) -->
+     <switch name="systems/armament/tanks/released">
+          <default value="systems/armament/tanks/released"/>
+          <test logic="AND" value="1">
+                systems/armament/release == 1
+                systems/armament/tanks/selected == 1
+          </test>
+          <output>systems/armament/tanks/released</output>
+     </switch>
+
+     <!-- jettison left AIM-9Bs, station 3) -->
+     <switch name="systems/armament/station3/released">
+          <default value="systems/armament/station3/released"/>
+          <test logic="AND" value="1">
+                systems/armament/release == 1
+                systems/armament/station3/selected == 1
+          </test>
+          <output>systems/armament/station3/released</output>
+     </switch>
+
+     <!-- jettison right AIM-9Bs, station 5) -->
+     <switch name="systems/armament/station5/released">
+          <default value="systems/armament/station5/released"/>
+          <test logic="AND" value="1">
+                systems/armament/release == 1
+                systems/armament/station5/selected == 1
+          </test>
+          <output>systems/armament/station5released</output>
+     </switch>
+
+  </channel>
+
+  <channel name="Weight-loss">
+
+     <!-- left drop tank, station 2 -->
+     <switch name="systems/armament/left-tank/weight-control">
+          <default value="inertia/pointmass-weight-lbs[0]"/>
+          <test value="0">
+                systems/armament/tanks/released == 1
+          </test>
+          <output>inertia/pointmass-weight-lbs[0]</output>
+     </switch>
+
+     <!-- right drop tank, station 6 -->
+     <switch name="systems/armament/right-tank/weight-control">
+          <default value="inertia/pointmass-weight-lbs[3]"/>
+          <test value="0">
+                systems/armament/tanks/released == 1
+          </test>
+          <output>inertia/pointmass-weight-lbs[3]</output>
+     </switch>
+
+     <!-- left AIM-9Bs, station 3 -->
+     <switch name="systems/armament/station3/weight-control">
+          <default value="inertia/pointmass-weight-lbs[1]"/>
+          <test value="0">
+                systems/armament/station3/released == 1
+          </test>
+          <output>inertia/pointmass-weight-lbs[1]</output>
+     </switch>
+
+     <!-- right AIM-9Bs, station 5 -->
+     <switch name="systems/armament/station5/weight-control">
+          <default value="inertia/pointmass-weight-lbs[2]"/>
+          <test value="0">
+                systems/armament/station5/released == 1
+          </test>
+          <output>inertia/pointmass-weight-lbs[2]</output>
+     </switch>
+
+  </channel>
+
+  <channel name="Fuel-loss">
+
+     <!-- left drop tank -->
+     <switch name="systems/armament/left-tank/fuel-level-control">
+          <default value="propulsion/tank[1]/contents-lbs"/>
+          <test value="0">
+                systems/armament/tanks/released == 1
+          </test>
+          <output>propulsion/tank[1]/contents-lbs</output>
+     </switch>
+
+     <!-- right drop tank -->
+     <switch name="systems/armament/right-tank/fuel-level-control">
+          <default value="propulsion/tank[2]/contents-lbs"/>
+          <test value="0">
+                systems/armament/tanks/released == 1
+          </test>
+          <output>propulsion/tank[2]/contents-lbs</output>
+     </switch>
+
+  </channel>
+
+
+</system>

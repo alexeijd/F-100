@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+
+<!--original FlightGear contrail adapted as exhaust trail by Kent Esbenshade-->
+
+<PropertyList>
+
+<particlesystem>
+	<name>smoke</name>
+	<texture>exhaust.png</texture>
+	<emissive type="bool">false</emissive>
+	<lighting type="bool">false</lighting>
+	<attach>world</attach>
+	<placer>
+		<type>point</type> 
+	</placer>
+	<shooter>
+		<theta-min-deg>-15</theta-min-deg>
+		<theta-max-deg>15</theta-max-deg>
+		<phi-min-deg>-15</phi-min-deg>
+		<phi-max-deg>15</phi-max-deg>
+		<speed-mps>
+			<value>0</value>
+			<spread>0</spread>
+		</speed-mps>
+		<rotation-speed>
+			<x-min-deg-sec>0</x-min-deg-sec>
+			<y-min-deg-sec>0</y-min-deg-sec>
+			<z-min-deg-sec>0</z-min-deg-sec>
+			<x-max-deg-sec>0</x-max-deg-sec>
+			<y-max-deg-sec>0</y-max-deg-sec>
+			<z-max-deg-sec>0</z-max-deg-sec>
+		</rotation-speed>
+	</shooter>
+	<counter>
+		<particles-per-sec>
+			<property>engines/engine[0]/n2</property>
+			<factor>2.0</factor>
+			<spread>0</spread>
+		</particles-per-sec>
+	</counter>
+	<align>billboard</align>
+	<particle>
+		<start>
+			<color>
+				<red>
+					<property>engines/engine[0]/n2</property>
+					<interpolation>
+						<entry><ind>67</ind><dep>1</dep></entry>
+						<entry><ind>100</ind><dep>.5</dep></entry>
+					</interpolation>
+				</red>
+				<green>
+					<property>engines/engine[0]/n2</property>
+					<interpolation>
+						<entry><ind>67</ind><dep>1</dep></entry>
+						<entry><ind>100</ind><dep>.5</dep></entry>
+					</interpolation>
+				</green>
+				<blue>
+					<property>engines/engine[0]/n2</property>
+					<interpolation>
+						<entry><ind>67</ind><dep>1</dep></entry>
+						<entry><ind>100</ind><dep>.5</dep></entry>
+					</interpolation>
+				</blue>
+				<alpha>
+					<property>engines/engine[0]/n2</property>
+					<interpolation>
+						<entry><ind>67</ind><dep>.09</dep></entry>
+						<entry><ind>100</ind><dep>.1</dep></entry>
+					</interpolation>
+				</alpha>
+			</color>
+			<size>
+				<value>0.5</value>
+			</size>
+		</start>
+		<end>
+			<color>
+				<red><value>1.0</value></red>
+				<green><value>1.0</value></green>
+				<blue><value>1.0</value></blue>
+				<alpha><value>0.0</value></alpha>
+			</color>
+			<size>
+				<value>10</value>
+			</size>
+		</end>
+		<life-sec>
+			<value>5</value>
+		</life-sec>
+		<mass-kg>0.0001</mass-kg>
+		<radius-m>0.1</radius-m>
+	</particle>
+	<program>
+		<fluid>air</fluid>
+		<gravity type="bool">false</gravity>
+		<wind type="bool">true</wind>
+	</program>
+</particlesystem>
+
+</PropertyList>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<!--AIM-9Bs, station 3; original by Dave Culp -->
+
+<PropertyList>
+
+<path>right-AIM-9Bs.ac</path>
+
+<animation>
+	<type>select</type>
+	<object-name>right-AIM-9Bs</object-name>
+	<condition>
+		<not>
+			<property>fdm/jsbsim/systems/armament/station5/released</property>
+		</not>
+	</condition>
+</animation>  
+
+</PropertyList>

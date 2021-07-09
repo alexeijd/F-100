@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<!--F-100D missile panel-->
+
+<PropertyList>
+
+<path>Models/missile-panel.ac</path>
+<texture-path>Textures</texture-path>
+
+<!--LoD-->
+
+<animation>
+	<type>range</type>
+	<min-m>0</min-m>
+	<max-m>5</max-m>
+</animation>
+
+</PropertyList>

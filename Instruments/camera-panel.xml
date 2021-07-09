@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<!--F-100D camera panel-->
+
+<PropertyList>
+
+<path>Models/camera-panel.ac</path>
+<texture-path>Textures</texture-path>
+
+<!--LIGHTING-->
+
+<animation>
+	<type>material</type>
+	<object-name>face</object-name>
+	<emission>
+		<red>0.75</red>
+		<green>0.25</green>
+		<blue>0.25</blue>
+		<factor-prop>controls/lighting/panel-norm</factor-prop>
+	</emission> 
+</animation> 
+
+<!--LoD-->
+
+<animation>
+	<type>range</type>
+	<min-m>0</min-m>
+	<max-m>5</max-m>
+</animation>
+
+</PropertyList>
